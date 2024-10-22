@@ -12,15 +12,28 @@
 <body data-bs-spy="scroll" data-bs-target=".navbar">
    <!--NAVBAR-->
    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-         <div class="container flex-lg-column">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+               <span class="h4 fw-bold">Collins Muriuki</span>
+               <img src="Dev image.jpg" class="img-fluid rounded-circle mb-3" alt="developer image" style="max-width: 50px;">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mx-lg-auto" href="#">
-               <span class="h4 fw-bold d-block text-lg-center">Collins Muriuki</span>
-               <img src="Dev image.jpg" class="img-fluid rounded-circle mb-3" alt="developer image" style="max-width: 150px;">
-            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+               </ul>
+            </div>
          </div>
       </nav>
       <!-- Sidebar -->
@@ -147,7 +160,9 @@
    <!-- Scripts -->
    <script src="aos.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuITjx74fHUhE+faVw+poFNyTVtKoOa7t8fK5M1R0z53v5cfRF2uGVi5h4g9C1wB" crossorigin="anonymous"></script>
-   <script src="main.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-Ol+K5NaBiM5/cpOYlthGi4yD9gvGIE1Vw3ACeNdEzLcf3Lgwl3OoxnniilzVRH2q" crossorigin="anonymous"></script>
+   <script>
+      AOS.init();
+   </script>
 </body>
 </html>
