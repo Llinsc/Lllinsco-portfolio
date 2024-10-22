@@ -139,23 +139,3 @@
    background-color: var(--color-base2);
    font-size: 30px;
  }
-.offcanvas {
-    background-color: #343a40; /* Sidebar background */
-}
-
-.offcanvas .nav-link {
-    color: white; /* Sidebar link color */
-}
-
-.offcanvas .nav-link:hover {
-    color: #f8f9fa; /* Sidebar link hover color */
-}
-
-.navbar {
-    z-index: 1030; /* Ensure navbar is above other elements */
-}
-
-.full-height {
-    min-height: 100vh; /* Full height sections */
-}
-
