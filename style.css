@@ -22,6 +22,29 @@
     color: var(--color-heading);
     font-weight: 600;
  }
+/* Add this to your style.css */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.full-height {
+    min-height: 100vh;
+}
+
+/* Ensure navbar text is readable */
+.navbar {
+    background-color: #343a40; /* Adjust this color to match your design */
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: #f8f9fa; /* Change color on hover */
+}
+
  a {
     text-decoration: none;
     color: var(--color-body);
